@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/contact.css" rel="stylesheet" />
+    <link href="../utils/fonts/font/css/all.css" rel="stylesheet" />
+    <script src="../js/js.js"></script>
+    <title>Contact us</title>
+  </head>
+  <body>
+    <div class="skewed_header">
+      <div
+        class="bg_image"
+        style="background-image: url('../assets/contact.jpg')"
+      ></div>
+      <div class="skewed_header_wrapper">
+        <div class="skewed_header_content">
+          <div class="heading">
+            <h1>Contact</h1>
+          </div>
+          <div class="links_wrapper">
+            <div class="nav_link"><a href="index.html">Home</a></div>
+            <div class="nav_link"><a href="about.html">About Us</a></div>
+            <div class="nav_link"><a href="menu.html">Menu</a></div>
+            <div class="nav_link"><a href="contact.html">Contact</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Form Controls -->
+
+    <div class="page_content">
+      <div class="grid_wrapper">
+        <div class="company_metadata_sidebar">
+          <div class="logo">
+            <img
+              src="../assets/decamp-fantastic-fries-logo-dark.png"
+              alt="Logo"
+            />
+          </div>
+
+          <div class="company_details">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="address">
+              123 Amy Str,<br />
+              Scottsdale, AZ, 85251
+            </div>
+          </div>
+          <div class="company_details">
+            <i class="fa fa-phone-volume"></i>
+            <div class="phone">555 555 555</div>
+          </div>
+          <div class="company_details">
+            <i class="fa fa-clock"></i>
+            <div class="clock">10 AM - MIDNIGHT</div>
+          </div>
+          <!--close of metadata sidebar-->
+        </div>
+
+        <div class="form">
+          <form method="POST">
+            <div class="form_group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="off"
+                placeholder="Your name"
+                value=""
+              />
+              <label for="name">Your name</label>
+            </div>
+            <div class="form_group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="off"
+                placeholder="Your email"
+                value=""
+              />
+              <label for="email">Your email</label>
+            </div>
+            <div class="form_group">
+              <textarea id="message" placeholder="Message"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <div class="center_btn">
+              <button id="btn" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+        <!--close of form-->
+
+        <!--close of grid wrapper-->
+      </div>
+      <!--close of page content-->
+    </div>
+
+    <footer>
+      <div class="content">
+        <div class="footer_image">
+          <img
+            title="back to top"
+            onclick="toTop()"
+            src="../assets/decamp-fantastic-fries-logo-white.png"
+            alt="DevCamp Logo"
+          />
+        </div>
+        <div class="contact">
+          <a href="contact.html">
+            <span class="phone">555 555 555</span>
+            <span class="hours">10 AM - MIDNIGHT</span>
+          </a>
+        </div>
+        <div class="link">
+          <ul class="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="icon">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          ><i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="copy">&copy; 2024 DevCamp &#124; All rights reserved</div>
+      </div>
+    </footer>
+  </body>
+</html>
